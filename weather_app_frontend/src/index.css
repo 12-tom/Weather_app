@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  @font-face {
+    font-family: MonstLight;
+    src: url('fonts/Montserrat-Light.ttf') format('tff');
+  }
+  @font-face {
+    font-family: MonstSemiBold;
+    src: url('fonts/Montserrat-SemiBold.ttf') format('tff');
+  }
+  @font-face {
+    font-family: MonstBold;
+    src: url('fonts/Montserrat-Bold.ttf') format('tff');
+  }
+  @font-face {
+    font-family: MonstExtraBold;
+    src: url('fonts/Montserrat-ExtraBold.ttf') format('tff');
+  }
+}
+
+.hover-pause-animation:hover {
+  animation-play-state: paused;
+}
